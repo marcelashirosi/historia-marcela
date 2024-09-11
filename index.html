@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>O Mistério da Mansão Abandonada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você acaba de chegar a uma pequena cidade que esconde um grande segredo: uma mansão abandonada no topo da colina, cercada por boatos de assombraçoẽes e mistérios. A curiosidade é irresistível, e você decide investigar.</p>
+            <p1>Ao se aproximar da mansão,você nota que as janelas estão quebradas e a porta da frente está entreabertas. Um vento frio sopra, fazendo que você hesite um momento. Mas a sua determinação é maior.</p1>
+            <button class="btn-proximo" data-proximo="1">Entre pela a porta da frente e explore o andar de baixo</button>
+            <button class="btn-proximo" data-proximo="2">Vá até o jardim dos fundos e procure uma entrada alternativa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo0.png/parte da frente da casa.jpg" alt="">u
+            <p>Se você escolheu entrar pela porta da frente</p>
+            <p2>Ao entrar, você se depara com um saguão empoeirado e cheio de teias de aranha. No canto, há uma escada que leva ao andar de cima e uma porta que leva ao andar de cima uma porta que lava á cozinha.</p2>
+            <button class="btn-proximo" data-proximo="3">Suba as escadas para investigar o andar de cima.</button>
+            <button class="btn-proximo" data-proximo="4">Vá até a cozinha para procurar pistas.</button>
+        </div>
+    
+    </main>
+
+    <div class="passo" id="passo-2">
+        <p>Se você escolheu ir até o jardim dos fundos.</p>
+        <p3>O jardim está coberto de ervas daninhas, mas você encontra uma porta dos fundos entreaberta. Ao entrar, percebe que está em uma sala escura repleta de móveis cobertas por lençóis.</p3>
+        <button class="btn-proximo" data-proximo="5">Levante um dos lençóis para ver o que está escondido.</button>
+        <button class="btn-proximo" data-proximo="6">Procure uma janela para ver se consegue enxergar mais do lado de fora.</button>
+      </div> 
+       
+    <div class="passo" id="passo-3">
+    <p>Se você subiu as escadas.</p>
+    <p4>No andar de cima, você encontra um quarto com um diário em cima da cama. Ao abri-lo, descobre anotações sobre eventos estranhos que ocorreram na mansão.</p4>
+    <p5>Se você foi á cozinha.</p5>
+    <p6>Na cozinha, você encontra uma ciaxa trancada com um cadeado enferrujado. Parece que algo valioso está la dentro.</p6>
+  </div>
+    
+</main>
+   
+    <div class="passo" id="passo-4">
+        <p>Se você levantou um lençol</p>
+        <p7>Sobre o lençol, há um retrato antigo de uma família que viveu na mansão há muitos anos. Você nota algo escrito nas costas de retrato.</p7>
+        <p8>Se você procurou na janela</p8>
+        <p9>Ao olhar pela janela, você vê uma figura sombria se movendo no jardim. Seu coração acelara ao perceber que não está sozinho na mansão.</p9>
+    </div>
+
+</main>
+
+        <div class="passo" id="passo-5">
+            <p></p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
